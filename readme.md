@@ -40,13 +40,18 @@ cd import
 cmake -G "Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_ECLIPSE_GENERATE_SOURCE_PROJECT=TRUE ..
 ```
 
+
+
 ### Building in Eclipse
 Click on the project in the project tree and use the Build All button on the tool bar to build the project. This can also be done with Ctrl+B.
+
+
 
 ### Running in Eclipse
 In the project tree, right click the project and navigate to Run As --> Local C/C++ Application. Select the binary to run and hit Ok.
 
 This can be also done by hitting the small arrow button directly right of the large green Run button on the toolbar, and then selecting the binary to run.
+
 
 
 ### Debug in Eclipse
@@ -57,6 +62,7 @@ Like with running, this can also be done from the tool bar by hitting the small 
 Breakpoints can be set by double clicking on the wanted line when viewing the source code, and will be seen with a blue marker when it has been set. The toolbar can be used to resume the debug, terminate, and disconnect.
 
 
+
 ### CppChEclipse
 To use cppcheck in Eclipse go to Help --> Eclipse Marketplace
 In the search tab, search for "cppcheclipse"
@@ -65,6 +71,8 @@ Hit install.
 Once installed, go to Window --> Preferences --> C/C++ --> cppcheclipse. In the cppcheck binary path, enter */usr/bin/cppcheck.* In cppcheclipse --> Problems, add/remove wanted/unwanted problems to check. More settings including specifying C++ version can be done in cppheclipse --> Settings.
 
 Once installed, cppcheck can be run by right clicking the project in the project tree and navigating to cppcheck --> Run cppcheck.
+
+
 
 ### Google C++ Style Guide
 To follow Google C++ Style Guide, download the xml file from [here](https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-cpp-google-style.xml) or in the command line ```wget https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-cpp-google-style.xml```
