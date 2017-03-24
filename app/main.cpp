@@ -8,7 +8,7 @@ int main()
     bool terminator = true;
     if( terminator )
     {
-        std::cout << "DONE" << std::endl;
+    std::cout << "DONE" << std::endl;
     }
     return 0;
 }

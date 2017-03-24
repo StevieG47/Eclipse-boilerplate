@@ -67,7 +67,7 @@ To follow Google C++ Style Guide, download the xml file from [here](https://raw.
 To import into Eclipse, go to Window --> Preferences --> C/C++ --> Code Style --> Formatter
 Click import and select the xml file, hit Ok. This changes the active profile to Google C++.
 
-The formatter can be used with every save by going to Window --> Preferences --> C/C++ --> Editor --> Save Actions
+The formatter can be used with every save by going to Windoe --> Preferences --> C/C++ --> Editor --> Save Actions
 Check *Format source code* and choose Format all lines or Format edited lines, then hit Ok. To manually format a line, right click and go to Source --> Format.
 
 
