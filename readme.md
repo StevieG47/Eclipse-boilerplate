@@ -16,9 +16,8 @@ Simple starter C++ project with:
 ```
 $ git clone --recursive https://github.com/dpiet/cpp-boilerplate.git
 ```
-## Project in Eclipse
 
-### Import into Eclipse
+## Import into Eclipse
 To import project into Eclipse:
 
 Open Eclipse
@@ -42,19 +41,20 @@ cmake -G "Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_ECLIPS
 
 
 
-### Building in Eclipse
+## Building in Eclipse
+
 Click on the project in the project tree and use the Build All button on the tool bar to build the project. This can also be done with Ctrl+B.
 
 
 
-### Running in Eclipse
+## Running in Eclipse
 In the project tree, right click the project and navigate to Run As --> Local C/C++ Application. Select the binary to run and hit Ok.
 
 This can be also done by hitting the small arrow button directly right of the large green Run button on the toolbar, and then selecting the binary to run.
 
 
 
-### Debug in Eclipse
+## Debug in Eclipse
 In the project tree, right click the project and navigate to Debug As --> Local C/C++ Application, then choose which binary you want and hit Ok. If asked to open the Debug perspective hit yes. 
 
 Like with running, this can also be done from the tool bar by hitting the small arrow next to the bug shaped Debug button and selecting the binary. 
@@ -63,7 +63,7 @@ Breakpoints can be set by double clicking on the wanted line when viewing the so
 
 
 
-### CppChEclipse
+## CppChEclipse
 To use cppcheck in Eclipse go to Help --> Eclipse Marketplace
 In the search tab, search for "cppcheclipse"
 Hit install.
@@ -74,7 +74,7 @@ Once installed, cppcheck can be run by right clicking the project in the project
 
 
 
-### Google C++ Style Guide
+## Google C++ Style Guide
 To follow Google C++ Style Guide, download the xml file from [here](https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-cpp-google-style.xml) or in the command line ```wget https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-cpp-google-style.xml```
 
 To import into Eclipse, go to Window --> Preferences --> C/C++ --> Code Style --> Formatter
