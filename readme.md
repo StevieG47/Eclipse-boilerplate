@@ -28,7 +28,7 @@ File --> Import --> General --> Existing Projects into Workspace --> Next
 
 Select root directory --> Browse
 
-Choose the *import* directory from cloned repository. This directory contains .project and .cproject files needed for Eclipse.  Hit Finish.
+Choose the *import* directory from cloned repository and hit Ok. This directory contains .project and .cproject files needed for Eclipse.  Hit Finish.
 
 Files can be seen by going through the project tree.
 
