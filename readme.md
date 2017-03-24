@@ -59,7 +59,7 @@ In the project tree, right click the project and navigate to Debug As --> Local 
 
 Like with running, this can also be done from the tool bar by hitting the small arrow next to the bug shaped Debug button and selecting the binary. 
 
-Breakpoints can be set by double clicking on the wanted line when viewing the source code, and will be seen with a blue marker when it has been set. The toolbar can be used to resume the debug, terminate, and disconnect.
+Breakpoints can be set by double clicking on the wanted line when viewing the source code, and will be seen with a blue marker when it has been set. The toolbar can be used to resume the debug, terminate, and disconnect while debugging. To close the Debug perspective, go to Window --> Perspective -> Close Perspective.
 
 
 
