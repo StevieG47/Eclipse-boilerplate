@@ -22,7 +22,9 @@ $ git clone --recursive https://github.com/dpiet/cpp-boilerplate.git
 To import project into Eclipse:
 
 Open Eclipse
+
 Project --> Uncheck Build Automatically
+
 File --> Import --> General --> Existing Projects into Workspace --> Next 
 
 Select root directory --> Browse
