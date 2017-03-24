@@ -15,8 +15,6 @@ Simple starter C++ project with:
 - Checkout the repo (and submodules)
 ```
 $ git clone --recursive https://github.com/dpiet/cpp-boilerplate.git
-
-
 ```
 ## Project in Eclipse
 
@@ -25,12 +23,15 @@ To import project into Eclipse:
 
 Open Eclipse
 Project --> Uncheck Build Automatically
-File --> Import --> General --> Existing Projects into Workspace --> Next
+File --> Import --> General --> Existing Projects into Workspace --> Next 
+
 Select root directory --> Browse
-Choose *import* directory from cloned repository. This directory contains .project and .cproject files needed for Eclipse. Hit Finish.
+
+Choose the *import* directory from cloned repository. This directory contains .project and .cproject files needed for Eclipse.  Hit Finish.
+
 Files can be seen by going through the project tree.
 
-The import directory was created with
+The import directory was created with:
 ```
 mkdir import
 cd import
@@ -42,11 +43,13 @@ Click on the project in the project tree and use the Build All button on the too
 
 ### Running in Eclipse
 In the project tree, right click the project and navigate to Run As --> Local C/C++ Application. Select the binary to run and hit Ok.
+
 This can be also done by hitting the small arrow button directly right of the large green Run button on the toolbar, and then selecting the binary to run.
 
 
 ### Debug in Eclipse
 In the project tree, right click the project and navigate to Debug As --> Local C/C++ Application, then choose which binary you want and hit Ok. If asked to open the Debug perspective hit yes. 
+
 Like with running, this can also be done from the tool bar by hitting the small arrow next to the bug shaped Debug button and selecting the binary. 
 
 Breakpoints can be set by double clicking on the wanted line when viewing the source code, and will be seen with a blue marker when it has been set. The toolbar can be used to resume the debug, terminate, and disconnect.
