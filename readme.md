@@ -84,6 +84,3 @@ Click import and select the xml file, hit Ok. This changes the active profile to
 The formatter can be used with every save by going to Window --> Preferences --> C/C++ --> Editor --> Save Actions
 
 Check *Format source code* and choose Format all lines or Format edited lines, then hit Ok. To manually format a line, right click and go to Source --> Format and select *The statement on the current line*
-
-
-
