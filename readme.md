@@ -65,12 +65,12 @@ Breakpoints can be set by double clicking on the wanted line when viewing the so
 
 ## CppChEclipse
 To use cppcheck in Eclipse go to Help --> Eclipse Marketplace
-In the search tab, search for "cppcheclipse"
-Hit install.
+
+In the search tab, search for "cppcheclipse" then hit install.
 
 Once installed, go to Window --> Preferences --> C/C++ --> cppcheclipse. In the cppcheck binary path, enter */usr/bin/cppcheck.* In cppcheclipse --> Problems, add/remove wanted/unwanted problems to check. More settings including specifying C++ version can be done in cppheclipse --> Settings.
 
-Once installed, cppcheck can be run by right clicking the project in the project tree and navigating to cppcheck --> Run cppcheck.
+cppcheck can be run by right clicking the project in the project tree and navigating to cppcheck --> Run cppcheck.
 
 
 
@@ -78,10 +78,12 @@ Once installed, cppcheck can be run by right clicking the project in the project
 To follow Google C++ Style Guide, download the xml file from [here](https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-cpp-google-style.xml) or in the command line ```wget https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-cpp-google-style.xml```
 
 To import into Eclipse, go to Window --> Preferences --> C/C++ --> Code Style --> Formatter
+
 Click import and select the xml file, hit Ok. This changes the active profile to Google C++.
 
 The formatter can be used with every save by going to Window --> Preferences --> C/C++ --> Editor --> Save Actions
-Check *Format source code* and choose Format all lines or Format edited lines, then hit Ok. To manually format a line, right click and go to Source --> Format.
+
+Check *Format source code* and choose Format all lines or Format edited lines, then hit Ok. To manually format a line, right click and go to Source --> Format and select *The statement on the current line*
 
 
 
